@@ -4,7 +4,7 @@
   "description": "A light wrapper around the top level of [CPS](http://en.wikipedia.org/wiki/Continuation-passing_style) functions that calls out to either a succes or error callback based on the arguments passed.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test"
   },
   "author": "",
   "license": "ISC",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/KoryNunn/wraperr/issues"
   },
-  "homepage": "https://github.com/KoryNunn/wraperr"
+  "homepage": "https://github.com/KoryNunn/wraperr",
+  "devDependencies": {
+    "grape": "^0.1.10"
+  }
 }
