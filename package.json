@@ -1,6 +1,6 @@
 {
   "name": "wraperr",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A light wrapper around the top level of [CPS](http://en.wikipedia.org/wiki/Continuation-passing_style) functions that calls out to either a succes or error callback based on the arguments passed.",
   "main": "index.js",
   "scripts": {
