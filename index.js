@@ -1,4 +1,4 @@
-module.exports = function wraperr(successCallback, errorCallback){
+module.exports = function wraperr(errorCallback, successCallback){
     return function(error){
         if(error){
             if(!errorCallback){
